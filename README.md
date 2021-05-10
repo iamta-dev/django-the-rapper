@@ -10,8 +10,7 @@ source env/bin/activate
 deactivate
 
 # Create project & app
-pip install django
-pip install djangorestframework
+pip install -r requirement.txt
 django-admin startproject PROJECT-NAME
 python manage.py start app APP-NAME
 python manage.py createsuperuser
